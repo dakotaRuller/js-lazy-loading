@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300&display=swap');
+/* font-family: 'Open Sans Condensed', sans-serif; */
+:root {
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#postsList {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+#postsList li {
+  width: 35%;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+#postsList li div h4.post-title {
+  text-align: center;
+}
+
+#postsList li div p.post-body {
+  padding: 10px;
+  background-color: #bfbfbf;
+  border-radius: 10px;
+}
